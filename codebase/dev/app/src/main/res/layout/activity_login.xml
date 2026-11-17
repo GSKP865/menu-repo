@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_app_surface"
+    android:fillViewport="true"
+    android:clipToPadding="false"
+    tools:context=".auth.LoginActivity">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="210dp">
+            <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/bg_auth_wave" android:scaleType="fitXY" android:importantForAccessibility="no" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="28dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Me ’n’ U" android:textColor="@color/brand_indigo" android:textSize="14sp" android:fontFamily="@font/manrope" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="Welcome back," android:textColor="@color/text_secondary" android:textSize="14sp" />
+                <TextView android:id="@+id/tvHeader" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Log in" android:textColor="@color/text_primary" android:textSize="28sp"  android:fontFamily="@font/lora" />
+            </LinearLayout>
+        </FrameLayout>
+    <LinearLayout
+        android:id="@+id/panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@android:color/transparent"
+        android:elevation="0dp"
+        android:orientation="vertical"
+        android:paddingHorizontal="28dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="24dp">
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/tvSubLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile number"
+            android:textColor="@color/text_primary"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/llInputContainer"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_auth_input_focused"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingHorizontal="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91"
+                android:textColor="@color/text_primary"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="24dp"
+                android:layout_marginHorizontal="12dp"
+                android:background="#C6DDF0" />
+
+            <EditText
+                android:id="@+id/etNickname"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:hint="Mobile number"
+                android:singleLine="true"
+                android:imeOptions="actionDone"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/gray_medium"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnGetConnected"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/bg_auth_action"
+            android:text="Send OTP"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvSignup"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:text="New user? Register now"
+            android:textColor="#245FB1"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

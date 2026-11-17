@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Me\'n\'U</string>
+    <string name="brand_title_formatted">Me \'n\' U</string>
+    <string name="diamond_symbol">♦</string>
+    <string name="tagline">TOGETHER, ALWAYS</string>
+    
+    <!-- Auth -->
+    <string name="login">Login</string>
+    <string name="enter_nickname">Enter your Nickname</string>
+    <string name="language_preference">Language Preference</string>
+    <string name="get_connected">Get connected</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="verify">Verify</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="send_otp">Send OTP</string>
+    
+    <!-- Language -->
+    <string name="select_language">Select Language</string>
+    <string name="recommended_languages">Recommended Languages</string>
+    <string name="all_languages">All Languages</string>
+    
+    <!-- Dashboard -->
+    <string name="coins">Coins</string>
+    <string name="available_women">Available Women</string>
+    <string name="quick_call">Quick Call</string>
+    <string name="recommended_users">Recommended Users</string>
+    <string name="recent_calls">Recent Calls</string>
+    <string name="support_shortcut">Support Shortcut</string>
+    <string name="notifications">Notifications</string>
+    <string name="recent_callers">Recent Callers</string>
+    <string name="upcoming_scheduled_calls">Upcoming Scheduled Calls</string>
+    
+    <!-- Discover -->
+    <string name="discover">Discover</string>
+    <string name="search">Search</string>
+    <string name="filter">Filter</string>
+    <string name="language">Language</string>
+    <string name="online_now">Online Now</string>
+    <string name="call">Call</string>
+    <string name="coin_rate">Coin Rate</string>
+    
+    <!-- Call -->
+    <string name="calling">Calling</string>
+    <string name="call_duration">00:00</string>
+    <string name="message">Message</string>
+    <string name="speaker">Speaker</string>
+    <string name="video">Video</string>
+    <string name="end_call">End Call</string>
+    
+    <!-- Call History -->
+    <string name="call_history">Call History</string>
+    <string name="call_made">Call made</string>
+    <string name="call_received">received</string>
+    <string name="call_missed">missed</string>
+    
+    <!-- Wallet -->
+    <string name="wallet">Wallet</string>
+    <string name="global_coin_balance">Global Coin Balance</string>
+    <string name="withdraw_earnings">Withdraw Earnings</string>
+    <string name="current_earnings">Current Earnings</string>
+    <string name="available">Available</string>
+    <string name="pending">Pending</string>
+    <string name="withdrawable">Withdrawable</string>
+    <string name="link_bank">Link Bank/UPI</string>
+    <string name="starter">Starter</string>
+    <string name="popular">Popular</string>
+    <string name="pro">Pro</string>
+    
+    <!-- Profile -->
+    <string name="profile">Profile</string>
+    <string name="profile_summary">Profile Summary</string>
+    <string name="payments_earnings">Payments/Earnings</string>
+    <string name="support">Support</string>
+    <string name="safety">Safety</string>
+    <string name="language_settings">Language</string>
+    <string name="logout">Logout</string>
+    <string name="report_block">Report/Block</string>
+    <string name="owner">Owner</string>
+    
+    <!-- Notifications -->
+    <string name="notifications_center">Notifications Center</string>
+    <string name="calls">Calls</string>
+    <string name="payments">Payments</string>
+    <string name="earnings">Earnings</string>
+    <string name="messages">Messages</string>
+    
+    <!-- More -->
+    <string name="more">More</string>
+    
+    <!-- Common -->
+    <string name="close">Close</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="done">Done</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+</resources>

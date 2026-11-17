@@ -1,0 +1,44 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="280dp"
+    android:height="140dp"
+    android:viewportWidth="300"
+    android:viewportHeight="150">
+
+    <!-- Faint lines -->
+    <path
+        android:strokeColor="#1AFFFFFF"
+        android:strokeWidth="1"
+        android:pathData="M 0,75 C 100,75 120,60 150,75 C 180,90 200,75 300,75" />
+
+    <!-- Left Circle -->
+    <path android:pathData="M 105, 15 A 60,60 0 1,1 105, 135 A 60,60 0 1,1 105, 15 M 105, 45 A 30,30 0 1,0 105, 105 A 30,30 0 1,0 105, 45 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="45" android:startY="75"
+                android:endX="165" android:endY="75"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#E6536DFE" /> <!-- Blue -->
+                <item android:offset="1.0" android:color="#E6AA00FF" /> <!-- Purple -->
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Right Circle -->
+    <path android:pathData="M 195, 15 A 60,60 0 1,1 195, 135 A 60,60 0 1,1 195, 15 M 195, 45 A 30,30 0 1,0 195, 105 A 30,30 0 1,0 195, 45 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="135" android:startY="75"
+                android:endX="255" android:endY="75"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#CCAA00FF" /> <!-- Purple -->
+                <item android:offset="1.0" android:color="#CCF50057" /> <!-- Pink/Magenta -->
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Center White Dot -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 150, 71 A 4,4 0 1,1 150, 79 A 4,4 0 1,1 150, 71 Z" />
+</vector>

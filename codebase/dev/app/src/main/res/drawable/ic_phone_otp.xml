@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="150dp"
+    android:height="150dp"
+    android:viewportWidth="150"
+    android:viewportHeight="150">
+    
+    <!-- Circle background -->
+    <path
+        android:fillColor="@color/purple_light"
+        android:fillAlpha="0.3"
+        android:pathData="M 75,75 m -70,0 a 70,70 0 1,0 140,0 a 70,70 0 1,0 -140,0"/>
+    
+    <!-- Phone -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M 55,35 h 40 v 70 h -40 Z"/>
+    
+    <!-- Phone screen -->
+    <path
+        android:fillColor="@color/purple_primary"
+        android:pathData="M 60,45 h 30 v 50 h -30 Z"/>
+    
+    <!-- OTP dots -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M 67,60 m -3,0 a 3,3 0 1,0 6,0 a 3,3 0 1,0 -6,0"/>
+    
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M 75,60 m -3,0 a 3,3 0 1,0 6,0 a 3,3 0 1,0 -6,0"/>
+    
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M 83,60 m -3,0 a 3,3 0 1,0 6,0 a 3,3 0 1,0 -6,0"/>
+    
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M 67,70 m -3,0 a 3,3 0 1,0 6,0 a 3,3 0 1,0 -6,0"/>
+    
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M 75,70 m -3,0 a 3,3 0 1,0 6,0 a 3,3 0 1,0 -6,0"/>
+    
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M 83,70 m -3,0 a 3,3 0 1,0 6,0 a 3,3 0 1,0 -6,0"/>
+    
+    <!-- Checkmark -->
+    <path
+        android:strokeColor="@color/white"
+        android:strokeWidth="3"
+        android:pathData="M65,85 L72,92 L85,78"/>
+</vector>
